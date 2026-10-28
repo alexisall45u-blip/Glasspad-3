@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="14dp"
+    android:background="@drawable/widget_bg">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="horizontal" android:gravity="center_vertical">
+    <TextView android:id="@+id/hd" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="Glasspad" android:textColor="#FFFFFF"
+        android:textSize="18sp" android:textStyle="bold" android:maxLines="1"/>
+    <TextView android:id="@+id/selbtn" android:layout_width="wrap_content" android:layout_height="34dp"
+        android:layout_marginLeft="6dp" android:paddingLeft="12dp" android:paddingRight="12dp"
+        android:gravity="center" android:text="Select" android:textColor="#FFFFFF" android:textSize="12sp"
+        android:textStyle="bold" android:background="@drawable/widget_pill_bg" android:visibility="visible"/>
+    <TextView android:id="@+id/delbtn" android:layout_width="wrap_content" android:layout_height="34dp"
+        android:layout_marginLeft="6dp" android:paddingLeft="12dp" android:paddingRight="12dp"
+        android:gravity="center" android:text="Delete" android:textColor="#FFFFFF" android:textSize="12sp"
+        android:textStyle="bold" android:background="@drawable/widget_del_bg" android:visibility="gone"/>
+    <TextView android:id="@+id/cancel" android:layout_width="wrap_content" android:layout_height="34dp"
+        android:layout_marginLeft="6dp" android:paddingLeft="12dp" android:paddingRight="12dp"
+        android:gravity="center" android:text="Cancel" android:textColor="#FFFFFF" android:textSize="12sp"
+        android:textStyle="bold" android:background="@drawable/widget_pill_bg" android:visibility="gone"/>
+    <TextView android:id="@+id/add" android:layout_width="36dp" android:layout_height="36dp"
+        android:layout_marginLeft="6dp" android:gravity="center" android:text="+" android:textColor="#FFFFFF"
+        android:textSize="24sp" android:background="@drawable/widget_add_bg"/>
+  </LinearLayout>
+  <TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:layout_marginTop="14dp" android:text="No notes yet. Tap + to write one."
+      android:textColor="#B8BAE0" android:textSize="13sp" android:visibility="gone"/>
+  <LinearLayout android:id="@+id/b1" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t1" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s1" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/b2" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t2" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s2" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/b3" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t3" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s3" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/b4" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t4" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s4" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/b5" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t5" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s5" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+  <LinearLayout android:id="@+id/b6" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="10dp" android:layout_marginTop="8dp"
+      android:background="@drawable/widget_item_bg" android:visibility="gone">
+    <TextView android:id="@+id/t6" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/s6" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#B8BAE0" android:textSize="12sp" android:maxLines="2" android:ellipsize="end" android:layout_marginTop="2dp"/>
+  </LinearLayout>
+</LinearLayout>
